@@ -1,0 +1,8 @@
+{
+  "socket":{
+    "connected":false,
+    "loggedIn":false,
+    "challenge":false,
+    "auth":null
+  }
+}

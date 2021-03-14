@@ -1,0 +1,28 @@
+{
+  "home": {
+    "route":"/home",
+    "component": "Home",
+    "enabled": true,
+    "navable": true,
+    "permissions": null,
+    "logging":true
+  },
+  "login": {
+    "route":"/login",
+    "component": "Login",
+    "enabled": true,
+    "navable": false,
+    "permissions": {
+      "loggedIn":false
+    },
+    "logging":true
+  },
+  "wrongPermissionsPage": {
+    "route":"/wrongPermissionsPage",
+    "component": "wrongPermissionsPage",
+    "enabled": true,
+    "navable": false,
+    "permissions": null,
+    "logging":true
+  }
+}
