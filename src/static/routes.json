@@ -17,6 +17,16 @@
     },
     "logging":true
   },
+  "logging": {
+    "route":"/logging",
+    "component": "Logging",
+    "enabled": true,
+    "navable": true,
+    "permissions": {
+      "loggedIn":true
+    },
+    "logging":true
+  },
   "wrongPermissionsPage": {
     "route":"/wrongPermissionsPage",
     "component": "wrongPermissionsPage",

@@ -9,7 +9,7 @@ import ROUTES from '../static/routes';
 
 import Navigation from '../components/Navigation'
 const HomePage = lazy(() => import('../pages/Home'));
-//import LoggingPage = lazy(() => import('../pages/Logging'));
+const LoggingPage = lazy(() => import('../pages/Logging'));
 const LoginPage = lazy(() => import('../pages/Login'))
 const WrongPermissionsPagePage = lazy(() => import('../pages/WrongPermissions'))
 
@@ -34,6 +34,7 @@ const App = () => {
           <Switch>
             <Route exact path={ROUTES.home.route} component={HomePage}/>
             <Route exact path={ROUTES.login.route} component={LoginPage}/>
+            <Route exact path={ROUTES.logging.route} component={LoggingPage}/>
             <Route exact path={ROUTES.wrongPermissionsPage.route} component={WrongPermissionsPagePage}/>
           </Switch>
         </Suspense>

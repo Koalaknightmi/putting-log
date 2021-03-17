@@ -73,14 +73,14 @@ const rrfProps = {
 
 ReactDOM.render(
   <Provider store={store}>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <ReactReduxFirebaseProvider {...rrfProps}>
-        <SocketProvider>
-          <App />
-        </SocketProvider>
-      </ReactReduxFirebaseProvider>
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <ReactReduxFirebaseProvider {...rrfProps}>
+          <SocketProvider>
+            <App />
+          </SocketProvider>
+        </ReactReduxFirebaseProvider>
+      </ThemeProvider>
   </Provider>,
   document.getElementById("root")
 );
